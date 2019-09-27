@@ -3,15 +3,10 @@ package com.hypenauticpulse.reinforceditems.datagen;
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.item.ModItems;
 import net.minecraft.advancements.criterion.InventoryChangeTrigger;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.util.IItemProvider;
-import net.minecraft.world.storage.loot.ConstantRange;
 
-import java.security.InvalidAlgorithmParameterException;
 import java.util.function.Consumer;
 
 public class Recipies extends RecipeProvider {
@@ -44,6 +39,14 @@ public class Recipies extends RecipeProvider {
                 .key('x', ModBlocks.REINFORCEDOBSIDIAN)
                 .setGroup("reinforceditems")
                 .addCriterion("reinforcedobsidian", InventoryChangeTrigger.Instance.forItems(ModBlocks.REINFORCEDOBSIDIAN))
+                .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.DIAMONDSTICK, 4)
+                .patternLine("   ")
+                .patternLine(" x ")
+                .patternLine(" x ")
+                .key('x', Items.DIAMOND)
+                .setGroup("reinforceditems")
+                .addCriterion("diamonds", InventoryChangeTrigger.Instance.forItems(Items.DIAMOND))
                 .build(consumer);
     }
 }

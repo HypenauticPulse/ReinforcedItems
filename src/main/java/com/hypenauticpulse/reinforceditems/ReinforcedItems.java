@@ -2,6 +2,7 @@ package com.hypenauticpulse.reinforceditems;
 
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.blocks.ReinforcedObsidian;
+import com.hypenauticpulse.reinforceditems.item.DiamondStick;
 import com.hypenauticpulse.reinforceditems.item.ObsidianChunk;
 import com.hypenauticpulse.reinforceditems.item.ReinforcedObsidianStick;
 import com.hypenauticpulse.reinforceditems.setup.ClientProxy;
@@ -58,6 +59,7 @@ public class ReinforcedItems {
             event.getRegistry().register(new BlockItem(ModBlocks.REINFORCEDOBSIDIAN, properties).setRegistryName("reinforcedobsidian"));
             event.getRegistry().register(new ObsidianChunk());
             event.getRegistry().register(new ReinforcedObsidianStick());
+            event.getRegistry().register(new DiamondStick());
         }
     }
 }
