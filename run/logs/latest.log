@@ -19,7 +19,7 @@
 [26Sep2019 20:12:51.374] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
 [26Sep2019 20:12:53.199] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.22, for MC 1.14.4 with MCP 20190829.143755
 [26Sep2019 20:12:53.199] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.22 Initialized
-[26Sep2019 20:12:54.707] [Client thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from Register Block
+[26Sep2019 20:12:54.707] [Client thread/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: HELLO from Register Block
 [26Sep2019 20:12:57.123] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
 [26Sep2019 20:12:58.639] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\ctvnu\MC_Projects\ReinforcedItems\run\config\forge-client.toml is not correct. Correcting
 [26Sep2019 20:12:58.643] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
@@ -32,9 +32,9 @@
 [26Sep2019 20:12:58.644] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
 [26Sep2019 20:12:58.644] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
 [26Sep2019 20:12:58.648] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[26Sep2019 20:12:58.652] [modloading-worker-9/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM PREINIT
-[26Sep2019 20:12:58.653] [modloading-worker-9/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
-[26Sep2019 20:12:58.832] [modloading-worker-9/INFO] [com.example.examplemod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@59c6322c
+[26Sep2019 20:12:58.652] [modloading-worker-9/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: HELLO FROM PREINIT
+[26Sep2019 20:12:58.653] [modloading-worker-9/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: DIRT BLOCK >> minecraft:dirt
+[26Sep2019 20:12:58.832] [modloading-worker-9/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: Got game settings net.minecraft.client.GameSettings@59c6322c
 [26Sep2019 20:12:58.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
 [26Sep2019 20:12:59.111] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
 [26Sep2019 20:12:59.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 28.1.22 Target: null
@@ -61,8 +61,8 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[26Sep2019 20:13:04.545] [modloading-worker-9/INFO] [com.example.examplemod.ExampleMod/]: Hello world from the MDK
-[26Sep2019 20:13:04.545] [modloading-worker-9/INFO] [com.example.examplemod.ExampleMod/]: Got IMC [Hello world]
+[26Sep2019 20:13:04.545] [modloading-worker-9/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: Hello world from the MDK
+[26Sep2019 20:13:04.545] [modloading-worker-9/INFO] [com.hypenauticpulse.reinforceditems.ReinforcedItems/]: Got IMC [Hello world]
 [26Sep2019 20:13:05.492] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
 [26Sep2019 20:13:05.493] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
 [26Sep2019 20:13:06.234] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
