@@ -6477,7 +6477,8 @@
 [26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
 [26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
 [26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
-[26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid reinforceditems : RegistryEvent.Register<minecraft:biome_source_type>
+[26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADI[26Sep2019 21:25:54.405] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+type>
 [26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid reinforceditems : RegistryEvent.Register<minecraft:biome_source_type>
 [26Sep2019 21:20:52.940] [Client thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome_source_type
 [26Sep2019 21:20:52.941] [Client thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome_source_type

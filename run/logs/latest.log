@@ -95,8 +95,8 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [26Sep2019 21:23:01.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Diamond Pickaxe] to Dev]
 [26Sep2019 21:23:01.583] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [Diamond Pickaxe] to Dev
 [26Sep2019 21:23:18.183] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[26Sep2019 21:23:18.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
-[26Sep2019 21:23:24.132] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[26Sep2019 21:23:18.189] [Server thread/INFO] [net.minecraft[26Sep2019 21:25:54.405] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+19 21:23:24.132] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
 [26Sep2019 21:23:24.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
 [26Sep2019 21:23:24.141] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
 [26Sep2019 21:23:24.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
