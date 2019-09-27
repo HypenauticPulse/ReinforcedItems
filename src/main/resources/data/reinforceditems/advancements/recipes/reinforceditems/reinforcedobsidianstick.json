@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "reinforceditems:reinforcedobsidianstick"
+    ]
+  },
+  "criteria": {
+    "reinforcedobsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "reinforceditems:reinforcedobsidian"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "reinforceditems:reinforcedobsidianstick"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "reinforcedobsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

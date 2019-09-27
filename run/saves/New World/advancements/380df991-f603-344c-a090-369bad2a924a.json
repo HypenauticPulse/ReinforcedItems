@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "reinforceditems:recipes/reinforceditems/reinforcedobsidianstick": {
+    "criteria": {
+      "reinforcedobsidian": "2019-09-27 12:35:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_at_least_9_diamond": "2019-09-27 00:51:57 -0400"

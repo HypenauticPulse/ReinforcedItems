@@ -37,5 +37,13 @@ public class Recipies extends RecipeProvider {
                 .setGroup("reinforceditems")
                 .addCriterion("obsidian", InventoryChangeTrigger.Instance.forItems(Blocks.OBSIDIAN))
                 .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.REINFORCEDOBSIDIANSTICK, 4)
+                .patternLine("   ")
+                .patternLine(" x ")
+                .patternLine(" x ")
+                .key('x', ModBlocks.REINFORCEDOBSIDIAN)
+                .setGroup("reinforceditems")
+                .addCriterion("reinforcedobsidian", InventoryChangeTrigger.Instance.forItems(ModBlocks.REINFORCEDOBSIDIAN))
+                .build(consumer);
     }
 }

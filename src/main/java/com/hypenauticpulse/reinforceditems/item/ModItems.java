@@ -6,4 +6,7 @@ public class ModItems {
 
     @ObjectHolder("reinforceditems:obsidianchunk")
     public static ObsidianChunk OBSIDIANCHUNK;
+
+    @ObjectHolder("reinforceditems:reinforcedobsidianstick")
+    public static ReinforcedObsidianStick REINFORCEDOBSIDIANSTICK;
 }
