@@ -2,8 +2,10 @@ package com.hypenauticpulse.reinforceditems;
 
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.blocks.ReinforcedObsidian;
+import com.hypenauticpulse.reinforceditems.item.ObsidianChunk;
 import com.hypenauticpulse.reinforceditems.setup.ClientProxy;
 import com.hypenauticpulse.reinforceditems.setup.IProxy;
+import com.hypenauticpulse.reinforceditems.setup.ModSetup;
 import com.hypenauticpulse.reinforceditems.setup.ServerProxy;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -25,6 +27,8 @@ public class ReinforcedItems {
 
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
+    public static ModSetup setup = new ModSetup();
+
     private static final Logger LOGGER = LogManager.getLogger();
 
     public ReinforcedItems() {
@@ -33,6 +37,8 @@ public class ReinforcedItems {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
+        setup.init();
+        proxy.init();
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
@@ -46,7 +52,10 @@ public class ReinforcedItems {
 
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
-            event.getRegistry().register(new BlockItem(ModBlocks.REINFORCEDOBSIDIAN, new Item.Properties()).setRegistryName("reinforcedobsidian"));
+            Item.Properties properties = new Item.Properties()
+                    .group(setup.itemGroup);
+            event.getRegistry().register(new BlockItem(ModBlocks.REINFORCEDOBSIDIAN, properties).setRegistryName("reinforcedobsidian"));
+            event.getRegistry().register(new ObsidianChunk());
         }
     }
 }
