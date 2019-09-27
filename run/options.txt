@@ -1,5 +1,5 @@
 version:1976
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -51,12 +51,12 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-key_key.attack:key.mouse.left
-key_key.use:key.mouse.right
+key_key.attack:key.mouse.right
+key_key.use:key.mouse.left
 key_key.forward:key.keyboard.w
 key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
