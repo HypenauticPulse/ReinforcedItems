@@ -7,6 +7,7 @@ import net.minecraft.advancements.criterion.InventoryChangeTrigger;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
 import net.minecraft.item.Items;
+import sun.security.provider.SHA;
 
 import java.util.function.Consumer;
 
@@ -48,6 +49,42 @@ public class Recipies extends RecipeProvider {
                 .key('x', Items.DIAMOND)
                 .setGroup("reinforceditems")
                 .addCriterion("diamonds", InventoryChangeTrigger.Instance.forItems(Items.DIAMOND))
+                .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANPICKAXE)
+                .patternLine("xxx")
+                .patternLine(" y ")
+                .patternLine(" y ")
+                .key('x', ModItems.OBSIDIANCHUNK)
+                .key('y', ModItems.DIAMONDSTICK)
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
+                .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANAXE)
+                .patternLine("xx ")
+                .patternLine("xy ")
+                .patternLine(" y ")
+                .key('x', ModItems.OBSIDIANCHUNK)
+                .key('y', ModItems.DIAMONDSTICK)
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
+                .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANSHOVEL)
+                .patternLine(" x ")
+                .patternLine(" y ")
+                .patternLine(" y ")
+                .key('x', ModItems.OBSIDIANCHUNK)
+                .key('y', ModItems.DIAMONDSTICK)
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
+                .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANSWORD)
+                .patternLine(" x ")
+                .patternLine(" x ")
+                .patternLine(" y ")
+                .key('x', ModItems.OBSIDIANCHUNK)
+                .key('y', ModItems.DIAMONDSTICK)
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
                 .build(consumer);
     }
 }

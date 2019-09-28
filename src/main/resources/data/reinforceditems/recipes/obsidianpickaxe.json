@@ -10,11 +10,9 @@
     "x": {
       "item": "reinforceditems:obsidianchunk"
     },
-  "key": {
     "y": {
       "item": "reinforceditems:diamondstick"
     }
-  }
   },
   "result": {
     "item": "reinforceditems:obsidianpickaxe"

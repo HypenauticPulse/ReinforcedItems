@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2019-09-27 00:51:49 -0400"
-    },
-    "done": true
-  },
   "reinforceditems:recipes/reinforceditems/obsidianchunk": {
     "criteria": {
       "obsidian": "2019-09-27 00:51:49 -0400"
@@ -14,18 +8,6 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2019-09-27 16:45:39 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_at_least_9_diamond": "2019-09-27 00:51:57 -0400"
     },
     "done": true
   },
@@ -41,27 +23,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2019-09-27 00:51:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2019-09-27 00:51:57 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2019-09-26 21:04:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2019-09-27 00:51:57 -0400"
     },
     "done": true
   },
@@ -71,9 +35,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
+  "reinforceditems:recipes/reinforceditems/obsidianshovel": {
     "criteria": {
-      "has_sandstone": "2019-09-26 21:04:15 -0400"
+      "obsidianchunk": "2019-09-28 17:24:59 -0400"
+    },
+    "done": true
+  },
+  "reinforceditems:recipes/reinforceditems/obsidianaxe": {
+    "criteria": {
+      "obsidianchunk": "2019-09-28 17:24:59 -0400"
     },
     "done": true
   },
@@ -90,12 +60,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
-    "criteria": {
-      "has_sandstone": "2019-09-26 21:04:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
     },
@@ -119,6 +83,126 @@
     },
     "done": true
   },
+  "reinforceditems:recipes/reinforceditems/reinforcedobsidianstick": {
+    "criteria": {
+      "reinforcedobsidian": "2019-09-27 12:35:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-09-27 00:52:36 -0400"
+    },
+    "done": true
+  },
+  "reinforceditems:recipes/reinforceditems/obsidiansword": {
+    "criteria": {
+      "obsidianchunk": "2019-09-28 17:24:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2019-09-27 00:51:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-09-27 16:45:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2019-09-27 16:45:39 -0400"
+    },
+    "done": true
+  },
+  "reinforceditems:recipes/reinforceditems/reinforcedobsidian": {
+    "criteria": {
+      "obsidian": "2019-09-27 00:51:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting": {
+    "criteria": {
+      "has_iron_ore": "2019-09-27 16:43:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting": {
+    "criteria": {
+      "has_diamond_ore": "2019-09-27 16:43:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2019-09-27 00:51:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2019-09-27 16:45:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2019-09-27 00:51:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2019-09-26 21:04:15 -0400"
+    },
+    "done": true
+  },
+  "reinforceditems:recipes/reinforceditems/obsidianpickaxe": {
+    "criteria": {
+      "obsidianchunk": "2019-09-28 16:51:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2019-09-26 21:04:15 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
@@ -137,21 +221,9 @@
     },
     "done": true
   },
-  "reinforceditems:recipes/reinforceditems/reinforcedobsidianstick": {
-    "criteria": {
-      "reinforcedobsidian": "2019-09-27 12:35:40 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_at_least_9_diamond": "2019-09-27 00:51:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2019-09-27 00:52:36 -0400"
     },
     "done": true
   },
@@ -185,12 +257,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2019-09-27 00:51:49 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2019-09-27 00:51:57 -0400"
@@ -209,57 +275,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2019-09-27 00:51:57 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2019-09-27 16:45:35 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2019-09-27 16:45:39 -0400"
-    },
-    "done": true
-  },
-  "reinforceditems:recipes/reinforceditems/reinforcedobsidian": {
-    "criteria": {
-      "obsidian": "2019-09-27 00:51:49 -0400"
-    },
-    "done": true
-  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2019-09-27 00:51:49 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_blasting": {
-    "criteria": {
-      "has_iron_ore": "2019-09-27 16:43:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2019-09-27 00:51:57 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_smelting": {
-    "criteria": {
-      "has_diamond_ore": "2019-09-27 16:43:20 -0400"
     },
     "done": true
   },

@@ -3,7 +3,10 @@ package com.hypenauticpulse.reinforceditems;
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.blocks.ReinforcedObsidian;
 import com.hypenauticpulse.reinforceditems.item.*;
+import com.hypenauticpulse.reinforceditems.item.bp.ModAxe;
 import com.hypenauticpulse.reinforceditems.item.bp.ModPickaxe;
+import com.hypenauticpulse.reinforceditems.item.bp.ModShovel;
+import com.hypenauticpulse.reinforceditems.item.bp.ModSword;
 import com.hypenauticpulse.reinforceditems.setup.ClientProxy;
 import com.hypenauticpulse.reinforceditems.setup.IProxy;
 import com.hypenauticpulse.reinforceditems.setup.ModSetup;
@@ -19,6 +22,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.lwjgl.system.CallbackI;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("reinforceditems")
@@ -60,6 +64,9 @@ public class ReinforcedItems {
             event.getRegistry().register(new ReinforcedObsidianStick());
             event.getRegistry().register(new DiamondStick());
             event.getRegistry().register(new ModPickaxe(ModItemTier.OBSIDIAN, 1, -2.8F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianpickaxe"));
+            event.getRegistry().register(new ModAxe(ModItemTier.OBSIDIAN, 5F, -3.0F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianaxe"));
+            event.getRegistry().register(new ModShovel(ModItemTier.OBSIDIAN, 0.5F, -2.8F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianshovel"));
+            event.getRegistry().register(new ModSword(ModItemTier.OBSIDIAN, 3, -2.4F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidiansword"));
         }
     }
 }
