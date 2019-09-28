@@ -2,9 +2,8 @@ package com.hypenauticpulse.reinforceditems;
 
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.blocks.ReinforcedObsidian;
-import com.hypenauticpulse.reinforceditems.item.DiamondStick;
-import com.hypenauticpulse.reinforceditems.item.ObsidianChunk;
-import com.hypenauticpulse.reinforceditems.item.ReinforcedObsidianStick;
+import com.hypenauticpulse.reinforceditems.item.*;
+import com.hypenauticpulse.reinforceditems.item.bp.ModPickaxe;
 import com.hypenauticpulse.reinforceditems.setup.ClientProxy;
 import com.hypenauticpulse.reinforceditems.setup.IProxy;
 import com.hypenauticpulse.reinforceditems.setup.ModSetup;
@@ -60,6 +59,7 @@ public class ReinforcedItems {
             event.getRegistry().register(new ObsidianChunk());
             event.getRegistry().register(new ReinforcedObsidianStick());
             event.getRegistry().register(new DiamondStick());
+            event.getRegistry().register(new ModPickaxe(ModItemTier.OBSIDIAN, 1, -2.8F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianpickaxe"));
         }
     }
 }

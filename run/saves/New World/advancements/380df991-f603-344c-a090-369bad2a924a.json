@@ -77,12 +77,6 @@
     },
     "done": true
   },
-  "reinforceditems:recipes/reinforceditems/obsidianpickaxe": {
-    "criteria": {
-      "obsidianchunk": "2019-09-27 16:36:16 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2019-09-27 00:51:57 -0400"

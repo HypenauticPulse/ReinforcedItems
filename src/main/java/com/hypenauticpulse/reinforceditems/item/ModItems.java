@@ -12,4 +12,6 @@ public class ModItems {
 
     @ObjectHolder("reinforceditems:diamondstick")
     public static DiamondStick DIAMONDSTICK;
+
+
 }

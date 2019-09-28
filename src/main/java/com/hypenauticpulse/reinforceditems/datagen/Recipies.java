@@ -1,5 +1,6 @@
 package com.hypenauticpulse.reinforceditems.datagen;
 
+import com.hypenauticpulse.reinforceditems.ReinforcedItems;
 import com.hypenauticpulse.reinforceditems.blocks.ModBlocks;
 import com.hypenauticpulse.reinforceditems.item.ModItems;
 import net.minecraft.advancements.criterion.InventoryChangeTrigger;

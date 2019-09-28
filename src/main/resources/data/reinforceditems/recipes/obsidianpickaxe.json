@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reinforceditems",
+  "pattern": [
+    "xxx",
+    " y ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "reinforceditems:obsidianchunk"
+    },
+  "key": {
+    "y": {
+      "item": "reinforceditems:diamondstick"
+    }
+  }
+  },
+  "result": {
+    "item": "reinforceditems:obsidianpickaxe"
+  }
+}
