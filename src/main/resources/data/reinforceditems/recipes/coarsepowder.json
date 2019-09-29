@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "reinforceditems",
+  "ingredients": [
+    {
+      "item": "reinforceditems:diamondpowder"
+    },
+    {
+      "item": "reinforceditems:obsidianpowder"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "reinforceditems:coarsepowder",
+    "count": 3
+  }
+}

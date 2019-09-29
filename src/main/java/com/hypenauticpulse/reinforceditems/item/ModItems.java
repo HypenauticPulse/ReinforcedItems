@@ -31,4 +31,7 @@ public class ModItems {
 
     @ObjectHolder("reinforceditems:diamondpowder")
     public static DiamondPowder DIAMONDPOWDER;
+
+    @ObjectHolder("reinforceditems:coarsepowder")
+    public static CoarsePowder COARSEPOWDER;
 }

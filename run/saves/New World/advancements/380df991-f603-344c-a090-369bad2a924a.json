@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot": {
     "criteria": {
       "has_iron_ore": "2019-09-27 16:43:04 -0400"
@@ -95,6 +101,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_at_least_9_redstone": "2019-09-29 11:43:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
+    },
+    "done": true
+  },
   "reinforceditems:recipes/reinforceditems/reinforcedobsidianstick": {
     "criteria": {
       "reinforcedobsidian": "2019-09-27 12:35:40 -0400"
@@ -110,6 +128,13 @@
   "reinforceditems:recipes/reinforceditems/obsidiansword": {
     "criteria": {
       "obsidianchunk": "2019-09-28 17:24:59 -0400"
+    },
+    "done": true
+  },
+  "reinforceditems:recipes/reinforceditems/coarsepowder": {
+    "criteria": {
+      "obsidianpowder": "2019-09-29 11:41:08 -0400",
+      "diamondpowder": "2019-09-29 11:41:08 -0400"
     },
     "done": true
   },
@@ -191,6 +216,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2019-09-27 00:51:57 -0400"
@@ -209,6 +240,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-09-29 12:07:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2019-09-29 12:08:15 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
@@ -218,6 +261,18 @@
   "reinforceditems:recipes/reinforceditems/obsidianpickaxe": {
     "criteria": {
       "obsidianchunk": "2019-09-28 16:51:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_at_least_9_redstone": "2019-09-29 11:43:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
     },
     "done": true
   },
@@ -251,6 +306,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-09-29 12:07:48 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2019-09-27 00:51:57 -0400"
@@ -260,6 +321,12 @@
   "minecraft:recipes/misc/diamond_from_blasting": {
     "criteria": {
       "has_diamond_ore": "2019-09-27 16:43:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
     },
     "done": true
   },
@@ -287,6 +354,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2019-09-29 12:07:48 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-09-27 00:51:54 -0400"
@@ -296,6 +369,12 @@
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-09-26 21:04:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2019-09-29 11:43:36 -0400"
     },
     "done": true
   },

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "reinforceditems:coarsepowder"
+    ]
+  },
+  "criteria": {
+    "obsidianpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "reinforceditems:obsidianpowder"
+          }
+        ]
+      }
+    },
+    "diamondpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "reinforceditems:diamondpowder"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "reinforceditems:coarsepowder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidianpowder",
+      "diamondpowder",
+      "has_the_recipe"
+    ]
+  ]
+}

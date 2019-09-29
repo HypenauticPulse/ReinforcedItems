@@ -87,5 +87,13 @@ public class Recipes extends RecipeProvider {
                 .setGroup("reinforceditems")
                 .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
                 .build(consumer);
+        ShapelessRecipeBuilder.shapelessRecipe(ModItems.COARSEPOWDER, 3)
+                .addIngredient(Ingredient.fromItems(ModItems.DIAMONDPOWDER))
+                .addIngredient(Ingredient.fromItems(ModItems.OBSIDIANPOWDER))
+                .addIngredient(Ingredient.fromItems(Items.REDSTONE))
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianpowder", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANPOWDER))
+                .addCriterion("diamondpowder", InventoryChangeTrigger.Instance.forItems(ModItems.DIAMONDPOWDER))
+                .build(consumer);
     }
 }
