@@ -87,14 +87,5 @@ public class Recipes extends RecipeProvider {
                 .setGroup("reinforceditems")
                 .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
                 .build(consumer);
-        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANPOWDER)
-                .patternLine("   ")
-                .patternLine(" x ")
-                .patternLine("   ")
-                .key('x', ModItems.OBSIDIANCHUNK)
-                .setGroup("reinforceditems")
-                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
-                .build(consumer);
-        CookingRecipeBuilder.smeltingRecipe(Ingredient.fromItems(Items.DIAMOND), ModItems.DIAMONDPOWDER, 2.5F, 200);
     }
 }

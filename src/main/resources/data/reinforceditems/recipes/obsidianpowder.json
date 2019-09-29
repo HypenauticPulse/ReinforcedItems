@@ -1,17 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "reinforceditems",
-  "pattern": [
-    "   ",
-    " x ",
-    "   "
-  ],
-  "key": {
-    "x": {
-      "item": "reinforceditems:obsidianchunk"
-    }
-  },
-  "result": {
-    "item": "reinforceditems:obsidianpowder"
-  }
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "reinforceditems:obsidianchunck" },
+  "result": "reinforceditems:obsidianpowder",
+  "experience": 2.3,
+  "cookingtime": 200
 }
