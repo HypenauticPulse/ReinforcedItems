@@ -12,7 +12,7 @@ public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        generator.addProvider(new Recipies(generator));
+        generator.addProvider(new Recipes(generator));
         generator.addProvider(new LootTables(generator));
     }
 }

@@ -63,6 +63,8 @@ public class ReinforcedItems {
             event.getRegistry().register(new ObsidianChunk());
             event.getRegistry().register(new ReinforcedObsidianStick());
             event.getRegistry().register(new DiamondStick());
+            event.getRegistry().register(new ObsidianPowder());
+            event.getRegistry().register(new DiamondPowder());
             event.getRegistry().register(new ModPickaxe(ModItemTier.OBSIDIAN, 1, -2.8F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianpickaxe"));
             event.getRegistry().register(new ModAxe(ModItemTier.OBSIDIAN, 5F, -3.0F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianaxe"));
             event.getRegistry().register(new ModShovel(ModItemTier.OBSIDIAN, 0.5F, -2.8F, new Item.Properties().group(ReinforcedItems.setup.itemGroup)).setRegistryName("obsidianshovel"));

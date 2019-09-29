@@ -7,13 +7,14 @@ import net.minecraft.advancements.criterion.InventoryChangeTrigger;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
 import net.minecraft.item.Items;
+import net.minecraft.item.crafting.Ingredient;
 import sun.security.provider.SHA;
 
 import java.util.function.Consumer;
 
-public class Recipies extends RecipeProvider {
+public class Recipes extends RecipeProvider {
 
-    public Recipies(DataGenerator generatorIn) { super(generatorIn); }
+    public Recipes(DataGenerator generatorIn) { super(generatorIn); }
 
     @Override
     protected void registerRecipes(Consumer<IFinishedRecipe> consumer) {
@@ -86,5 +87,14 @@ public class Recipies extends RecipeProvider {
                 .setGroup("reinforceditems")
                 .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
                 .build(consumer);
+        ShapedRecipeBuilder.shapedRecipe(ModItems.OBSIDIANPOWDER)
+                .patternLine("   ")
+                .patternLine(" x ")
+                .patternLine("   ")
+                .key('x', ModItems.OBSIDIANCHUNK)
+                .setGroup("reinforceditems")
+                .addCriterion("obsidianchunk", InventoryChangeTrigger.Instance.forItems(ModItems.OBSIDIANCHUNK))
+                .build(consumer);
+        CookingRecipeBuilder.smeltingRecipe(Ingredient.fromItems(Items.DIAMOND), ModItems.DIAMONDPOWDER, 2.5F, 200);
     }
 }

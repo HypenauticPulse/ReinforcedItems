@@ -25,4 +25,10 @@ public class ModItems {
 
     @ObjectHolder("reinforceditems:obsidiansword")
     public static Item OBSIDIANSWORD;
+
+    @ObjectHolder("reinforceditems:obsidianpowder")
+    public static ObsidianPowder OBSIDIANPOWDER;
+
+    @ObjectHolder("reinforceditems:diamondpowder")
+    public static DiamondPowder DIAMONDPOWDER;
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reinforceditems",
+  "pattern": [
+    "   ",
+    " x ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "reinforceditems:obsidianchunk"
+    }
+  },
+  "result": {
+    "item": "reinforceditems:obsidianpowder"
+  }
+}
